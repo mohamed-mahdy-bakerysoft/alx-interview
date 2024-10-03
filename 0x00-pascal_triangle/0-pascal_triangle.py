@@ -12,7 +12,9 @@ def pascal_triangle(n:int):
     """
     pas_cal = [[1]] # The base case with one value in the row
 
-    if n > 0:
+    if n <= 0:
+        return pas_cal
+    else:
         for i in range(n - 1):
             inter_array = [0] + pas_cal[-1] + [0]
             new_row = []
