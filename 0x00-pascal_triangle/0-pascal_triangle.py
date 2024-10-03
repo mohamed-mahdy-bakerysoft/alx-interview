@@ -13,7 +13,7 @@ def pascal_triangle(n:int):
     pas_cal = [[1]] # The base case with one value in the row
 
     if n <= 0:
-        empty = [[]]
+        empty = []
         return empty
     else:
         for i in range(n - 1):
