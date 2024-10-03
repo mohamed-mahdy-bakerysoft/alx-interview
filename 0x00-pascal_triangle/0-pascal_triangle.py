@@ -4,7 +4,7 @@
 """
 
 
-def pascal_triangle(n:int):
+def pascal_triangle(n:int) -> list[list[int]]:
     """
     This is a function to plot a designated Pascal Triangle,
 
