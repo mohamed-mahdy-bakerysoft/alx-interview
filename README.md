@@ -5,4 +5,4 @@ DIRECTORIES.
 -
     1 . 0x00-pascal_triangle
 -
-    2. 0X01-lockboxes
+    2 . 0X01-lockboxes
